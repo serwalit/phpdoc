@@ -1,0 +1,150 @@
+header{
+    font-family: 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.8em;
+    color: black;
+    line-height: 3;
+    margin: 10px;
+
+}
+
+html, body{
+  font-size: medium;
+  color: rgb(90, 105, 120);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: aliceblue;
+  line-height: 1.5;
+  min-width: 100px;
+  }
+
+  #main-doc header{
+    text-align: center;
+    margin: 0;
+    color: cornflowerblue;
+    }
+  
+    #main-doc h2 {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      text-align: left;
+      margin: 0px;
+      line-height: 1.5;
+      font-size: 1.2em;
+      color: rgb(40, 43, 243);
+    }
+
+    #main-doc h3 {
+      text-align: left;
+      margin: 0px;
+      line-height: 2;
+      font-size: 1.1em;
+      color: darkslateblue;
+      font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  
+    }
+
+    #navbar {
+      position: fixed;
+      min-width: 290px;
+      top: 0px;
+      left: 0px;
+      width: 300px;
+      height: 100%;
+      border-right: solid;
+      border-color: rgba(0, 22, 22, 0.4);
+    }
+
+    #navbar ul {
+      height: 84%;
+      padding: 0;
+      overflow-y: auto;
+      overflow-x: scroll;
+    }
+
+    #navbar li {
+      color: #4d4e53;
+      border-top: 1px solid;
+      list-style: none;
+      position: relative;
+      width: 100%;
+    }
+
+    #navbar a {
+      display: block;
+      padding: 10px 30px;
+      color: #090dfa;
+      text-decoration: none;
+      cursor: pointer;
+    }
+
+    #main-doc {
+      position: absolute;
+      margin-left: 310px;
+      padding: 20px;
+      margin-bottom: 10px;
+    }
+
+    section article {
+      color: #212122;
+      margin: 15px;
+      font-size: 0.96em;
+    }
+
+    section li {
+      margin: 15px 0px 0px 20px;
+      color: #3e3e6e;
+    }
+
+    @media only screen and (max-width: 500px) {
+      #main-doc {
+        margin-left: -10px;
+      }
+    
+      code {
+        margin-left: -20px;
+        width: 100%;
+        padding: 15px;
+        padding-left: 10px;
+        padding-right: 45px;
+        min-width: 233px;
+      }
+    }
+
+    @media only screen and (max-width: 815px) {
+      /* For mobile phones: */
+      #navbar ul {
+        border: 1px solid;
+        height: 80px;
+      }
+    
+      #navbar {
+        background-color: white;
+        position: absolute;
+        top: 0;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        max-height: 300px;
+        border: none;
+        z-index: 1;
+        border-bottom: 2px solid;
+      }
+    
+      #main-doc {
+        position: relative;
+        margin-left: 0px;
+        margin-top: 170px;
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
